@@ -115,7 +115,7 @@ class locate():
         self.cam_calib    = 0.0025                     # meters per pixel at 1 meter
         self.cam_x_offset = -0.01                   # camera gripper offset
         self.cam_y_offset = -0.035
-        self.width        = 960                        # Camera resolution
+        self.width        = 960                       # Camera resolution
         self.height       = 600
 
         # Hough circle accumulator threshold and minimum radius.
